@@ -67,10 +67,14 @@
 .card-link__icon {
   z-index: 9999;
   position: absolute;
-  top: 0;
-  left: 0;
+
+  top: 0%;
+  left: 0%;
+
   width: 36px;
   height: 36px;
+
+  transform: translate(-50%, -50%);
 
   color: var(--white);
   fill: var(--white);
