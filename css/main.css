@@ -1,5 +1,8 @@
 /*? Импорт основных стилей  */
-@import "./style.css";
+@import "style.css";
 
 /*? Импорт хедера  */
 @import "header.css";
+
+/*? Импорт hero-block  */
+@import "hero.css";
