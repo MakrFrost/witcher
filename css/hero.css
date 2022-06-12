@@ -6,11 +6,23 @@
 .present-hero__title {
   font-size: 90px;
   line-height: 120%;
+  margin-bottom: 8px;
 }
 .present-hero__text {
   font-family: "Arial";
   font-size: 20px;
   line-height: 130%;
+
+  margin-bottom: 54px;
 }
 .present-hero__btn {
+  display: block;
+  width: 285px;
+  height: 68px;
+
+  background-image: url(../img/button.png);
+  filter: drop-shadow(-4px 6px 10px rgba(10, 10, 10, 0.51));
+  border-radius: 2px;
+
+  margin-bottom: 96px;
 }

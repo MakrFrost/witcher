@@ -1,0 +1,60 @@
+.present-tabs {
+}
+.present-tabs__list {
+  display: flex;
+  min-width: 285px;
+  margin-left: auto;
+
+  font-family: "Arial";
+  background-color: rgba(0, 0, 0, 0.7);
+  font-weight: 700;
+  line-height: 140%;
+  padding: 13px 22px;
+}
+.present-tabs__item {
+}
+.present-tabs__btn {
+}
+.active {
+}
+
+.tabs-list {
+}
+.tabs-item {
+}
+.tabs-item__active {
+}
+.tabs-content {
+}
+.card {
+}
+.card-video {
+}
+.card-link {
+}
+.card-link___img {
+}
+.card-link__text {
+}
+
+.card-img {
+}
+.tabs-content__img {
+}
+
+.card-prod {
+}
+.prod {
+}
+.prod-img {
+}
+.prod-title {
+}
+.prod-buy {
+}
+.prod-price {
+}
+.prod-btn {
+}
+.prod-icon {
+}
