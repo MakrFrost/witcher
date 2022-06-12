@@ -5,10 +5,6 @@
   --animation: 300ms ease-in-out;
 }
 
-html {
-  position: relative;
-}
-
 /* Указываем box sizing */
 *,
 *::before,

@@ -19,7 +19,19 @@
   color: var(--white);
   background-color: inherit;
   border-bottom: 2px solid transparent;
-  transition: border-color 300ms ease-in-out;
+  transition: border-color 300ms ease-in-out, color 300ms ease-in-out;
+}
+.present-tabs__btn:hover {
+  color: #bdbdbd;
+  border-color: #bdbdbd;
+}
+.present-tabs__btn:active {
+  color: #bdbdbd;
+  border-color: #bdbdbd;
+}
+.present-tabs__btn:focus {
+  color: #bdbdbd;
+  border-color: #bdbdbd;
 }
 .active {
   border-color: var(--white);
@@ -42,6 +54,7 @@
   flex-basis: 285px;
 }
 .card-link {
+  position: relative;
 }
 .card-link__img {
   width: 100%;
@@ -50,6 +63,17 @@
 
   object-fit: cover;
   object-position: center;
+}
+.card-link__icon {
+  z-index: 9999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 36px;
+  height: 36px;
+
+  color: var(--white);
+  fill: var(--white);
 }
 .card-link__text {
   font-family: "Arial";
