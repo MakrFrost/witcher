@@ -1,20 +1,26 @@
 /*? Блок-контейнер */
 .header {
+  padding-top: 20px;
+  padding-bottom: 38px;
 }
 .header-flex {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 /*? Логотип */
 .header__logo {
 }
 /*? Заголовок */
 .header-title {
+  line-height: 130%;
 }
 /*? Блок навигации */
 .header-nav {
 }
 /*? Список ссылок */
 .header-nav__list {
+  display: flex;
 }
 .header-nav__item {
 }
