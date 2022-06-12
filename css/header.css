@@ -25,8 +25,6 @@
   gap: 26px;
   align-items: center;
 }
-.header-nav__item {
-}
 .header-nav__link {
   display: flex;
   width: 40px;
@@ -37,6 +35,20 @@
 
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 50%;
+
+  outline: 0;
+  transition: background var(--animation), box-shadow var(--animation),
+    border var(--animation);
 }
+.header-nav__link:hover {
+  background: var(--white);
+}
+.header-nav__link:active {
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.7);
+}
+.header-nav__link:focus {
+  border: 1px solid var(--black);
+}
+
 .header-nav__logo {
 }
