@@ -21,7 +21,11 @@
   width: 285px;
   height: 68px;
 
+  outline: none;
   background-image: url(../img/button.png);
   filter: drop-shadow(-4px 6px 10px rgba(10, 10, 10, 0.51));
   border-radius: 2px;
+}
+.present-hero__btn:hover {
+  filter: drop-shadow(-4px 6px 10px rgba(170, 170, 170, 0.856));
 }
