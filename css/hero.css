@@ -2,6 +2,7 @@
 .present {
 }
 .present-hero {
+  margin-bottom: 30px;
 }
 .present-hero__title {
   font-size: 90px;
@@ -23,6 +24,4 @@
   background-image: url(../img/button.png);
   filter: drop-shadow(-4px 6px 10px rgba(10, 10, 10, 0.51));
   border-radius: 2px;
-
-  margin-bottom: 96px;
 }

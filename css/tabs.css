@@ -2,20 +2,24 @@
 }
 .present-tabs__list {
   display: flex;
-  min-width: 285px;
+  justify-content: space-between;
+  max-width: 285px;
   margin-left: auto;
+  padding: 13px 22px;
 
   font-family: "Arial";
   background-color: rgba(0, 0, 0, 0.7);
-  font-weight: 700;
-  line-height: 140%;
-  padding: 13px 22px;
 }
 .present-tabs__item {
 }
 .present-tabs__btn {
+  font-weight: 700;
+  line-height: 1;
+  color: var(--white);
+  background-color: inherit;
 }
 .active {
+  border-bottom: 2px solid var(--white);
 }
 
 .tabs-list {
