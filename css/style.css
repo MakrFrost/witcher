@@ -107,6 +107,7 @@ svg {
   display: block;
 }
 
+/*? Ограничивающий контейнер */
 .container {
   max-width: 1100px;
   margin-left: auto;
