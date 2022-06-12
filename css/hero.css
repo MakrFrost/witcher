@@ -1,0 +1,16 @@
+/*? Блок герой  */
+.present {
+}
+.present-hero {
+}
+.present-hero__title {
+  font-size: 90px;
+  line-height: 120%;
+}
+.present-hero__text {
+  font-family: "Arial";
+  font-size: 20px;
+  line-height: 130%;
+}
+.present-hero__btn {
+}

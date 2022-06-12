@@ -13,6 +13,7 @@
 }
 /*? Заголовок */
 .header-title {
+  font-family: "Arial";
   line-height: 130%;
 }
 /*? Блок навигации */
