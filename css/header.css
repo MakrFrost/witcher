@@ -52,3 +52,41 @@
 
 .header-nav__logo {
 }
+
+.menu__button {
+  display: none;
+}
+
+@media (max-width: 750px) {
+  .header-flex {
+    grid-template-columns: 60px 1fr 60px;
+  }
+  .menu__button {
+    display: block;
+  }
+  .header-nav__list {
+    display: none;
+  }
+  .header-nav {
+    position: relative;
+  }
+  .header-nav__list_active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 35px;
+    right: 0;
+    gap: 10px;
+  }
+  .header-nav__link {
+    display: flex;
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-flex {
+    grid-template-columns: 45px 1fr 45px;
+  }
+}
