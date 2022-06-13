@@ -9,3 +9,6 @@
 
 /*? Импорт tabs-block  */
 @import "tabs.css";
+
+/*? Адаптив  */
+@import "media.css";
