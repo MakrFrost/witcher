@@ -21,7 +21,11 @@ const getCard = function (dataCard) {
 
     case "photo":
       li.classList.add("card-img");
-      li.innerHTML = `<img src="${dataCard.link}" alt="${dataCard.description}" class="tabs-content__img"/>`;
+      li.innerHTML = `<img
+                      src="${dataCard.link}"
+                      alt="${dataCard.description}"
+                      class="tabs-content__img"
+                    />`;
       break;
 
     case "goods":
@@ -50,7 +54,7 @@ const renderTabs = async (i = 0) => {
 
   const type = tabsContent[i].dataset.base;
 
-  const data = getData(`db/${type}.json`);
+  const data = await getData(`db/${type}.json`);
 
   const listElem = data.map(getCard, type);
 
