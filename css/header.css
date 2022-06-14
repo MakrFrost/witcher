@@ -64,12 +64,14 @@
   .menu__button {
     display: block;
   }
-  .header-nav__list {
-    display: none;
-  }
+
   .header-nav {
     position: relative;
   }
+  .header-nav__list {
+    display: none;
+  }
+
   .header-nav__list_active {
     display: flex;
     flex-direction: column;

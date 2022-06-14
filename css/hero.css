@@ -2,6 +2,7 @@
 .present {
 }
 .present-hero {
+  margin-top: 38px;
   margin-bottom: 30px;
 }
 .present-hero__title {
@@ -28,4 +29,66 @@
 }
 .present-hero__btn:hover {
   filter: drop-shadow(-4px 6px 10px rgba(170, 170, 170, 0.856));
+}
+.page {
+  position: relative;
+}
+.page::before {
+  z-index: -9;
+  content: "";
+  position: absolute;
+  right: 96px;
+  bottom: 0;
+  height: calc(100% - 115px);
+  width: 70%;
+  background-image: url(../img/geralt-bg.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: contain;
+}
+
+@media (max-width: 1000px) {
+  .present-hero__title {
+    font-size: 70px;
+  }
+  .present-hero {
+    margin-top: 38px;
+    margin-bottom: 10px;
+  }
+  .present-hero__text {
+    max-width: 290px;
+    margin-bottom: 28px;
+  }
+  .present-hero__btn {
+    width: 246px;
+    height: 59px;
+  }
+}
+@media (max-width: 850px) {
+  .present-hero {
+    margin-top: 38px;
+    margin-bottom: 10px;
+  }
+  .present-hero__title {
+    font-size: 60px;
+  }
+  .present-hero__btn {
+    width: 246px;
+    height: 59px;
+  }
+}
+@media (max-width: 750px) {
+  .present-hero {
+    margin-top: 38px;
+    margin-bottom: 10px;
+  }
+  .present-hero__title {
+    font-size: 60px;
+  }
+  .present-hero__btn {
+    width: 246px;
+    height: 59px;
+  }
+}
+@media (max-width: 480px) {
 }

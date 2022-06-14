@@ -102,3 +102,7 @@ svg {
   margin-right: auto;
   padding: 0 31px;
 }
+
+.svgs {
+  display: none;
+}
