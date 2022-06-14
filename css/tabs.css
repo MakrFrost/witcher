@@ -28,8 +28,11 @@
   border-color: var(--white);
 }
 .tabs-item {
+  display: none;
 }
 .tabs-item__active {
+  display: block;
+  height: 252px;
 }
 /*! JS  */
 

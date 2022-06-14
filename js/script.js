@@ -8,7 +8,7 @@ burgerMenu({
 
 tabs({
   selectorTabsButtons: ".present-tabs__btn",
-  activeClassButton: ".active",
+  activeClassButton: "active",
   selectorTabsElement: ".tabs-item",
-  activeClassTab: ".tabs-item__active",
+  activeClassTab: "tabs-item__active",
 });
