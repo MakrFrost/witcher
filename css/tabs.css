@@ -14,6 +14,8 @@
 }
 .present-tabs__item {
 }
+
+/*! JS  */
 .present-tabs__btn {
   font-weight: 700;
   line-height: 1;
@@ -22,6 +24,15 @@
   border-bottom: 2px solid transparent;
   transition: border-color 300ms ease-in-out, color 300ms ease-in-out;
 }
+.active {
+  border-color: var(--white);
+}
+.tabs-item {
+}
+.tabs-item__active {
+}
+/*! JS  */
+
 .present-tabs__btn:hover {
   color: #bdbdbd;
   border-color: #bdbdbd;
@@ -34,15 +45,8 @@
   color: #bdbdbd;
   border-color: #bdbdbd;
 }
-.active {
-  border-color: var(--white);
-}
 
 .tabs-list {
-}
-.tabs-item {
-}
-.tabs-item__active {
 }
 .tabs-content {
   display: flex;
